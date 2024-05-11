@@ -53,6 +53,8 @@ body {
   color: #f4c304;
   font-weight: 900;
   text-decoration: none;
+  display: flex;
+  gap: 10px;
 }
 .nav-list {
   display: flex;
@@ -73,6 +75,13 @@ body {
   }
   .header-logo {
     font-size: 16px;
+  }
+  .header-logo a{
+    font-size: 16px;
+    gap: 5px;
+  }
+  .header-logo img {
+    width: 22px;
   }
   .header-container {
     padding-left: 10px;
