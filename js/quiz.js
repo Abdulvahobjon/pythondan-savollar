@@ -62,7 +62,7 @@ quizBtn.addEventListener("click", function () {
       loadQuiz();
     } else {
       setTimeout(function(){
-        window.location.href = 'https://www.javascript-savollar.uz/'
+        window.location.href = 'https://pythondan-savollar.vercel.app/'
       } , 8000)
       if ((dataNewTen.length / 100) * 90 <= score) {
         quiz.innerHTML = `<div class="quiz-resualt">
